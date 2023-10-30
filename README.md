@@ -8,22 +8,16 @@ This project is a web application built with Express.js, TypeScript, and Prisma 
 
     Use your preferred package manager to install the project dependencies.
 
-    - Using npm:
+    ```shell
+    # Using NPM:
+    npm install
 
-        ```shell
-        npm install
-        ```
+    # Using YARN
+    yarn install
 
-    - Using Yarn:
-
-        ```shell
-        yarn install
-        ```
-
-    - Using pnpm:
-        ```shell
-        pnpm install
-        ```
+    # Using PNPM
+    pnpm install
+    ```
 
 2. **Configure Environment Variables:**
 
@@ -42,46 +36,35 @@ This project is a web application built with Express.js, TypeScript, and Prisma 
 
     Start the development server to see your project in action.
 
-    - Using npm:
+    
+    ```shell
+    # Using NPM:
+    npm run dev
 
-        ```shell
-        npm run dev
-        ```
+    # Using YARN
+    yarn dev
 
-    - Using Yarn:
-
-        ```shell
-        yarn dev
-        ```
-
-    - Using pnpm:
-        ```shell
-        pnpm dev
-        ```
+    # Using PNPM
+    pnpm dev
+    ```
 
 5. **Run the Production Server:**
 
     Build the project and start the production server.
 
-    - Using npm:
+    ```shell
+    # Using npm
+    npm run build
+    npm run start
 
-        ```shell
-        npm run build
-        npm run start
-        ```
+    # Using yarn
+    yarn build
+    yarn start
 
-    - Using Yarn:
-
-        ```shell
-        yarn build
-        yarn start
-        ```
-
-    - Using pnpm:
-        ```shell
-        pnpm build
-        pnpm start
-        ```
+    # Using pnpm
+    pnpm build
+    pnpm start
+    ```
 
 ## License
 
